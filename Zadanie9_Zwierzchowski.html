@@ -1,0 +1,40 @@
+<body>
+        <h1>Opis stylu zewnętrznego:</h1>
+        <ol>
+            <h1><li>Składnia teoretyczna → otoczony ramką.</li></h1>
+                <textarea rows="5" cols="70" style="overflow:hidden">&lt;head&gt;
+    (...)
+    &lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt;
+    (...)
+&lt;/head&gt;
+                </textarea>
+            <h1><li>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</li></h1>
+                wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy znacznikami &lt; head&gt; a &lt; /head&gt;), przedstawioną powyżej linijkę:<br><br>
+                <textarea rows="1" cols="70" style="overflow: hidden;">&lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt;
+                </textarea><br>
+
+                Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów
+            <h1><li>Jaki jest najprostsza format wstawiania stylu zewnętrznego → otoczony ramką (może być tabela jedno komórkowa)</li></h1>
+                <textarea rows="1" cols="70" style="overflow: hidden;">&lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt;
+                </textarea>
+            <h1><li>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</li></h1>
+                Można dołączyć dowolną ilość zewnętrznych arkuszy stylów.<br>
+                Lecz każdy jako osobny element &lt; link rel="Stylesheet" /&gt;.
+            <h1><li>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</li></h1>
+                W takiej sytuacji, ważniejsze będą deklaracje z arkusza dołączonego w późniejszym czasie.
+            <h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</li></h1>
+                Zewnętrzny arkusz stylów jest zwykłym plikiem tekstowym więc aby tworzyć i edytować potrzebny jest zwykły edytor tekstu.
+            <h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</li></h1>
+
+            <h1><li>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</li></h1>
+               .css
+            <h1><li>Jakie są zalety zewnętrznego arkusza styli</li></h1>
+                <ol>
+                    <li>Podobieństwa wszystkich stron.</li>
+                    <li>Łatwa zmiana czcionki, kolorów itd za pomocą arkusza styli.</li>
+                </ol>
+            <h1><li>Uwagi na temat pisania w CSS.</li></h1>
+               Każdy zewnętrzny arkusz styli musi mieć rozszerzenie .css
+        </ol>
+    
+</body>
